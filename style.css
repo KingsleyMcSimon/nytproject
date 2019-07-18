@@ -97,12 +97,17 @@ button{
 .nytimageslogo{
     text-align: center;
     padding: 0 16em;
+    width: 180px;
+    height: 25px;
 }
 .center{
     text-align: center;
 }
 .float{
     float: right;
+}
+.credit{
+    font-size: 12px;
 }
 .newsletter-headline{
     width: 100%;
@@ -122,6 +127,10 @@ button{
     margin-left: 11%;
     margin-right: 11%;
 }
+.landing-image img{
+    height: 550px;
+    width: 950px;
+}
 .landing-image p{
 
     text-align: left;
@@ -138,7 +147,9 @@ button{
     line-height: 1;
     padding-bottom: 10px;
 }
-
+.nytimages1{
+    width: 100%;
+}
 .main-article{
     margin: 40px 320px;
 }
@@ -224,14 +235,16 @@ iframe{
     width: 100%;
     height: 320px;
     padding-top: 30px;
+    border: 0;
 }
-.fig-caption-p{
+
+.caption{
     margin: 0 0 30px 0;
-}
-figcaption{
     color: #666;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 5px;
 }
+
 .iframe-span{
     font-size: 12px;
 }
@@ -342,18 +355,79 @@ footer{
     padding: 10px 0 10px 0;
     border-top: 2px double #999;
 }
+.footer-heading img{
+    width: 189px;
+    height: 25px;
+}
 .footer-wrapper{
     display: inline-flex;
+    border-bottom: 1px solid #eee;
+    padding: 0 0 10px 0;
 }
-.footer-item p{
-   padding-bottom: 10px;
+.footer-item ul li{
+   font-size: 14px;
    color: #000;
+   padding: 6px 0 6px 0;
+   width: 180px;
+   line-height: 16px;
+   font-weight: 500;
 }
 .footer-item a{
     color: #000;
     text-decoration: none;
+   
 }
-.first, .second, .third, .forth, .fifth, .six{ 
-    
-
+.footer-item img{
+    width: 15px;
+    height: 15px;
+}
+.footer-item h3{
+    height: 23px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+.big{
+    font-weight: 700;
+    font-size: 16px;
+}
+.small{
+    font-size: 12px;
+}
+.smaller{
+    border-top: 1px solid #eee;
+}
+.sixth{
+    border-left: 1px solid #eee;
+    border-width: 50%;
+    padding: 0 0 0 15px;
+}
+.copyrights ul{
+    display: inline-flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+}
+.copyrights ul li{
+    font-size: 12px;
+    padding: 5px;
+}
+.copyrights a{
+    color: #999;
+    text-decoration: none;
+}
+.create-account{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000;
+    text-align: center;
+    border-top: 1px solid #000;
+}
+.create-account p{
+    padding-top: 10px;
+    font-weight: 600;
 }
