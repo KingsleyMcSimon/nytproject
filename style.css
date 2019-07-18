@@ -225,8 +225,10 @@ iframe{
     height: 320px;
     padding-top: 30px;
 }
-figcaption{
+.fig-caption-p{
     margin: 0 0 30px 0;
+}
+figcaption{
     color: #666;
     font-size: 14px;
 }
@@ -257,4 +259,101 @@ figcaption{
 }
 .footer-social-media a{
     color: #000;
+}
+/********************************************/
+.blog-container{
+    display: inline-flex;
+}
+.blog-wrapper{
+    width: 66%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-top: 1px solid #000;
+    padding: 20px 0 0 0;
+}
+.blog-wrapper a{
+    line-height: 20px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+.fig-direction{
+    text-align: right;
+    padding-right: 4px;
+    font-size: 12px;
+}
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.blog-grid-item img{
+    width: 255px;
+}
+.push{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-top: 1px solid #000;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.fig-caption-img{
+    width: 50px;
+}
+.blog-comments{
+    width: 25%;
+    border-top: 1px solid #000;
+    padding: 20px 10px 0 0;
+}
+.blog-comments h3{
+    line-height: 20px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.blog-comments-section{
+    border-top: 1px solid #eee;
+}
+.blog-comments-section p{
+    line-height: 22px;
+    font-weight: 500px;
+    font-size: 18px;
+    color: #000;
+    padding: 10px 0 10px 0;
+}
+/************************************************/
+/*************** FOOTER CSS ********************/
+footer{
+    padding-top: 45px;
+    margin-top: 60px;
+    border-top: 1px solid #eee;
+    background-color: #ffffff; 
+}
+.footer-container{
+    width: 92%;
+    padding: 10px o 10px 0;
+    margin: 0 auto;
+}
+.footer-heading{
+    padding: 10px 0 10px 0;
+    border-top: 2px double #999;
+}
+.footer-wrapper{
+    display: inline-flex;
+}
+.footer-item p{
+   padding-bottom: 10px;
+   color: #000;
+}
+.footer-item a{
+    color: #000;
+    text-decoration: none;
+}
+.first, .second, .third, .forth, .fifth, .six{ 
+    
+
 }
