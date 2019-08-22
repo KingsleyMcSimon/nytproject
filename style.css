@@ -571,3 +571,6 @@ footer {
 .link-home {
   float: right;
 }
+figcaption{
+    text-align: left;
+}
