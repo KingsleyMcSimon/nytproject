@@ -140,6 +140,7 @@ body {
   max-width: 1440px;
   overflow-x: hidden;
 }
+
 a {
   color: rgb(98, 136, 165);
 }
@@ -438,6 +439,7 @@ footer {
   padding: 10px 0 10px 0;
   border-top: 2px double #999;
 }
+
 .go-home {
   float: right;
   font-size: 14px;
